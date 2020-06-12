@@ -1,0 +1,61 @@
+
+<html>
+    <head>
+        <title>LOGIN</title>
+        <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+        <style>
+            th{
+                text-align: left;
+                padding: 10px;
+            }
+            .button:hover{
+                background-color: lightgreen;
+                font-weight:bold;
+            }
+             body{
+                color:white;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-image: url("../images/iii.jpg");
+            }
+            input[type=text],input[type=password]{
+                width:100%;
+                padding: 10px 10px;
+                border:1px solid#ccc;
+                margin:2px 1px;
+                box-sizing:content-box;
+                display:inline-block;
+                color: black;
+            }
+            h1{
+                font-family:serif;
+                font-size:70px;
+                font-weight: bolder;
+            }
+            
+        </style>
+    </head>
+     <body style="background-color: lightsalmon;">
+         <div> <center><h1>LOGIN</h1> <br></center></div>
+     <center>
+          
+        <form name="Contact Form" method="post" action="login.jsp">
+            
+            <table>
+                <tr><th>Username: </th>
+                    <td><input type="text" placeholder="Enter ur username" name="un" required></td></tr>
+                <br>
+                <tr><th>Password: </th>
+                <br>
+                <td><br><input type="password" placeholder="Enter ur password"  name="ps"  required></td></tr>
+                
+            
+                <tr><th><center><input type="submit" style="color:black" value="Submit" class="button"></center></th></tr>
+            </table>
+        </form>
+</center>
+       
+     
+   
+    </body>
+</html>
